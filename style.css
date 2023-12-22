@@ -3,7 +3,6 @@ body {
     margin: 0;
         padding: 0;
         transform: scaleX(0.92);
-        margin-left: 13px;
         background-image: url('BG.svg');
 }
 
