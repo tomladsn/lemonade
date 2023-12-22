@@ -1,9 +1,10 @@
 /* Global styles */
 body {
-    margin: 0;
-        padding: 0;
-        transform: scaleX(0.92);
-        background-image: url('BG.svg');
+    margin: 0px 0px 0px 13px;
+    padding: 0;
+    transform: scaleX(0.85);
+    background-image: url(BG.svg);
+    margin-left: -40px;
 }
 
 .box1 {
@@ -362,7 +363,7 @@ color: rgba(71, 53, 37, 0.90);
 .sc3-item-1 {
     width: 454.18px;
     height: 515.17px;
-    left: 0px;
+    left: -25px;
     top: 231px;
     position: absolute;
 }
@@ -549,7 +550,7 @@ color: rgba(71, 53, 37, 0.90);
 .sc3-item-3 {
     width: 454.14px;
     height: 516px;
-    left: 510.26px;
+    left: 490.26px;
     top: 230px;
     position: absolute;
 }
