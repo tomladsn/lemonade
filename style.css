@@ -1,0 +1,637 @@
+/* Global styles */
+body {
+    margin: 0;
+        padding: 0;
+        transform: scaleX(0.92);
+        margin-left: 13px;
+        background-image: url('BG.svg');
+}
+
+.box1 {
+    width: 89px;
+    height: 74px;
+}
+
+.box1 .heart-group {
+    position: fixed;
+    width: 89px;
+    height: 74px;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Image styles */
+.image-container {
+    width: 1319px;
+    height: 711px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.image-container img {
+    width: 192px;
+    height: 172px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+/* Button styles */
+.button-container {
+    width: 147px;
+    height: 67px;
+    position: absolute;
+}
+
+.button1 {
+    width: 147px;
+    height: 67px;
+top: 644px;
+    position: absolute;
+    background: rgba(71, 53, 37, 0.78);
+    border-radius: 10px;
+    left: 33px;
+}
+
+.button1-text {
+    left: 17px;
+    top: 20px;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.button2 {
+    width: 147px;
+    height: 67px;
+    left: 204px;
+    top: 644px;
+    position: absolute;
+}
+
+.button2-inner {
+    width: 147px;
+    height: 67px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px #3A2818 solid;
+}
+
+.button2-text {
+    left: 28px;
+    top: 20px;
+    position: absolute;
+    color: rgba(71, 53, 37, 0.90);
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Navigation styles */
+.nav-container {
+    width: 424px;
+    height: 28px;
+    left: 366px;
+    top: 86px;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+}
+
+.nav-item-container {
+    width: 538px;
+    height: 28px;
+    position: relative;
+}
+
+.nav-item {
+    position: absolute;
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.nav-item1 {
+    left: 0;
+    top: 0;
+    color: black;
+}
+
+.nav-item2 {
+    left: 99px;
+    top: 0;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item3 {
+    left: 227px;
+    top: 0;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item4 {
+    left: 334px;
+    top: 0;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-item5 {
+    left: 455px;
+    top: 0;
+    color: black;
+    font-weight: 600;
+}
+
+/* Sign-up button styles */
+.signup-button {
+    width: 127px;
+    height: 50px;
+    left: 1192px;
+    top: 86px;
+    position: absolute;
+}
+
+.signup-inner {
+    width: 127px;
+    height: 50px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px rgba(0, 0, 0, 0.78) solid;
+}
+
+.signup-text {
+    left: 24px;
+    top: 11px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Large image styles */
+.large-image {
+    width: 593px;
+    height: 633px;
+    left: 845px;
+    top: 202px;
+    position: absolute;
+    border-radius: 110px;
+}
+
+/* Header styles */
+.header-text {
+    width: 899px;
+    height: 199px;
+    left: 33px;
+    top: 319px;
+    position: absolute;
+    color: rgba(71, 53, 37, 0.90);
+    font-size: 80px;
+    font-family: Jost;
+    font-weight: 700;
+    line-height: 88.43px;
+    word-wrap: break-word;
+}
+
+/* Subheader styles */
+.subheader-text {
+    left: 36px;
+    top: 519px;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 27px;
+    font-family: Jost;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+/* Container styles */
+.sc2-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top:950px;
+}
+
+/* Shared text styles for both title and description */
+.sc2-text-common {
+    color: rgba(71, 53, 37, 0.90);
+    font-family: Jost;
+    word-wrap: break-word;
+}
+
+/* Title styles */
+.sc2-container-title {
+    width: 376.97px;
+    height: 259.26px;
+    left: 3.93px;
+    top: 3.09px;
+    position: absolute;
+color: rgba(71, 53, 37, 0.90);
+    font-size: 70px;
+    font-family: Jost;
+    font-weight: 700;
+    line-height: 84px;
+    word-wrap: break-word
+}
+
+/* Description styles */
+.sc2-container-description {
+    width: 388.75px;
+    height: 129.63px;
+    left: 0px;
+    top: 290.13px;
+    position: absolute;
+    color: rgba(71, 53, 37, 0.90);
+        font-size: 30px;
+        font-family: Jost;
+        font-weight: 400;
+        line-height: 42px;
+        word-wrap: break-word
+}
+
+/* Image container styles */
+.sc2-image-container {
+    width: 256.22px;
+    height: 348.39px;
+    left: 787.32px;
+    top: 115.61px;
+    position: absolute;
+}
+
+/* Image styles */
+.sc2-image-container img {
+    width: 89px;
+    height: 298px;
+    left: 85.68px;
+    top: 13.39px;
+    position: absolute;
+}
+
+/* Box with image styles */
+.sc2-box-with-image {
+    width: 256.22px;
+    height: 348.39px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #FFE2C8 0%, #FFF3C8 0%, #FEBA44 85%);
+    box-shadow: 0px 10px 50px rgba(89, 70, 49, 0.54);
+    border-radius: 48px;
+}
+
+/* Larger image container styles */
+.sc2-larger-image-container {
+    width: 427px;
+    height: 382.54px;
+    left: 1048px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Larger image styles */
+.sc2-larger-image-container img {
+    width: 427px;
+    height: 306px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 204px;
+}
+
+/* Larger box with image styles */
+.sc2-larger-box-with-image {
+    width: 283.65px;
+    height: 382.54px;
+    left: 62.35px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #FFE2C8 0%, #FFF3C8 0%, #FEBA44 85%);
+    box-shadow: 0px 10px 50px rgba(89, 70, 49, 0.54);
+    border-radius: 48px;
+}
+
+/* Smaller box with image styles */
+.sc2-smaller-box-with-image {
+    width: 283.65px;
+    height: 382.54px;
+    left: 444.71px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(180deg, #FFE2C8 0%, #FFF3C8 0%, #FEBA44 85%);
+    box-shadow: 0px 10px 50px rgba(89, 70, 49, 0.54);
+    border-radius: 48px;
+}
+
+/* Smaller image styles */
+.sc2-smaller-box-with-image img {
+    width: 273px;
+    height: 304px;
+    left: 9.29px;
+    top: 51px;
+    position: absolute;
+}
+/* Container styles */
+.sc3-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 1650px;
+}
+
+/* First item styles */
+.sc3-item-1 {
+    width: 454.18px;
+    height: 515.17px;
+    left: 0px;
+    top: 231px;
+    position: absolute;
+}
+.sc3-title1 {
+    color: rgba(71, 53, 37, 0.90);
+        font-size: 70px;
+        font-family: Jost;
+        font-weight: 700;
+        line-height: 84px;
+        word-wrap: break-word;
+        width: 603px;
+}
+/* Background gradient for the first item */
+.sc3-item-1-gradient-background {
+    width: 454.18px;
+    height: 515.17px;
+    left: 0px;
+    position: absolute;
+    background: linear-gradient(181deg, rgba(255, 155, 37, 0.79) 1%, rgba(255, 240.83, 224.19, 0.65) 100%);
+    box-shadow: 15px 15px 15px;
+    border-radius: 40px;
+    border: 4px #FDFDFD solid;
+    filter: blur(15px);
+}
+
+/* Orange box with image styles */
+.sc3-orange-box {
+    width: 88.60px;
+    height: 73.88px;
+    left: 360.55px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Small white box in the orange box */
+.sc3-white-box {
+    width: 24.46px;
+    height: 20.91px;
+    background: white;
+}
+
+/* Text block styles */
+.sc3-text-block {
+    width: 270.25px;
+    height: 136.92px;
+    left: 42.35px;
+    top: 311.27px;
+    position: absolute;
+}
+
+/* Title styles */
+.sc3-title {
+    width: 270.25px;
+    height: 54.18px;
+    color: rgba(71, 53, 37, 0.90);
+    font-size: 30px;
+    font-family: Martel Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Price styles */
+.sc3-price {
+    width: 80.67px;
+    height: 29.55px;
+    color: #FF3D00;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Larger description styles */
+.sc3-description {
+    width: 173.44px;
+    height: 17.73px;
+    color: #555555;
+    font-size: 15px;
+    font-family: Jura;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Image styles */
+.sc3-image {
+    width: 356.97px;
+    height: 348.70px;
+    left: 40.34px;
+    top: 0px;
+    position: absolute;
+    border-radius: 177px;
+}
+
+/* Second item styles */
+.sc3-item-2 {
+    width: 457.48px;
+    height: 515.17px;
+    left: 1000.52px;
+    top: 231px;
+    position: absolute;
+}
+
+/* Background gradient for the second item */
+.sc3-item-2-gradient-background {
+    width: 454.18px;
+    height: 515.17px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(181deg, rgba(255, 243, 200, 0.62) 0%, #FFA51E 100%);
+    box-shadow: 15px 15px 15px;
+    border-radius: 40px;
+    border: 4px white solid;
+    filter: blur(15px);
+}
+
+/* Orange box with image styles for the second item */
+.sc3-item-2-orange-box {
+    width: 88.60px;
+    height: 73.88px;
+    left: 360.55px;
+    top: 0px;
+    position: absolute;
+}
+
+/* Small white box in the orange box for the second item */
+.sc3-item-2-white-box {
+    width: 24.46px;
+    height: 20.91px;
+    background: white;
+}
+
+/* Text block styles for the second item */
+.sc3-item-2-text-block {
+    width: 270.25px;
+    height: 136.92px;
+    left: 42.35px;
+    top: 311.27px;
+    position: absolute;
+}
+
+/* Title styles for the second item */
+.sc3-item-2-title {
+    width: 270.25px;
+    height: 54.18px;
+    color: rgba(71, 53, 37, 0.90);
+    font-size: 30px;
+    font-family: Martel Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Price styles for the second item */
+.sc3-item-2-price {
+    width: 80.67px;
+    height: 29.55px;
+    color: #FF3D00;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Larger description styles for the second item */
+.sc3-item-2-description {
+    width: 173.44px;
+    height: 17.73px;
+    color: #555555;
+    font-size: 15px;
+    font-family: Jura;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Image styles for the second item */
+.sc3-item-2-image {
+    width: 90%;
+        height: 400.55px;
+        position: relative;
+        left: 10%;
+}
+
+/* Third item styles */
+.sc3-item-3 {
+    width: 454.14px;
+    height: 516px;
+    left: 510.26px;
+    top: 230px;
+    position: absolute;
+}
+
+/* Background gradient for the third item */
+.sc3-item-3-gradient-background {
+    width: 454.14px;
+    height: 515px;
+    left: 0px;
+    top: 1px;
+    position: absolute;
+    background: linear-gradient(360deg, rgba(255, 154.81, 37.19, 0.87) 0%, #FFF3C8 83%);
+    box-shadow: 15px 15px 15px;
+    border-radius: 40px;
+    border: 4px #FDFDFD solid;
+    filter: blur(15px);
+}
+
+/* Orange box with image styles for the third item */
+.sc3-item-3-orange-box {
+    width: 88.60px;
+    height: 73.88px;
+    left: 360.24px;
+    top: 0.83px;
+    position: absolute;
+}
+
+/* Small white box in the orange box for the third item */
+.sc3-item-3-white-box {
+    width: 24.46px;
+    height: 20.91px;
+    background: white;
+}
+
+/* Text block styles for the third item */
+.sc3-item-3-text-block {
+    width: 199.66px;
+    height: 136.92px;
+    left: 42.05px;
+    top: 312.10px;
+    position: absolute;
+}
+
+/* Title styles for the third item */
+.sc3-item-3-title {
+    width: 199.66px;
+    height: 54.18px;
+    color: rgba(71, 53, 37, 0.90);
+    font-size: 30px;
+    font-family: Martel Sans;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Price styles for the third item */
+.sc3-item-3-price {
+    width: 80.67px;
+    height: 29.55px;
+    color: #FF3D00;
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Larger description styles for the third item */
+.sc3-item-3-description {
+    width: 173.44px;
+    height: 17.73px;
+    color: #555555;
+    font-size: 15px;
+    font-family: Jura;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Image styles for the third item */
+.sc3-item-3-image {
+    width: 323.24px;
+    height: 339px;
+    left: 55.38px;
+    top: 0px;
+    position: absolute;
+}
